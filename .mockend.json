@@ -1,6 +1,8 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "pickup_display": { "string": ["Laredo, TX", "Fontana, CA", "Pacific, WA", "Springfield, OH"] },
+    "drop_display": { "string": ["Indianapolis, IN", "Phoenix, AZ", "Kansas City, MO", "Memphis, TN"]},
+    "last_location": { "string": ["Dayton, OH", "Olathe, KS", "Tulsa, OK"]},
     "comments": {
       "hasMany": "Comment"
     }
