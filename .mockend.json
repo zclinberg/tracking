@@ -1,13 +1,15 @@
 {
-  "Tracking": {
+  "Load": {
     "tracking_number": { "string": {} },
+    "load_number": {"string": ["T210712999", "T210712124", "T210712719"]},
+    "serial": {"string": ["006008", "MS203254", "NB862181"]},
     "pickup_display": { "string": ["Laredo, TX", "Fontana, CA", "Pacific, WA", "Springfield, OH"] },
     "drop_display": { "string": ["Indianapolis, IN", "Phoenix, AZ", "Kansas City, MO", "Memphis, TN"]},
     "last_location": { "string": ["Dayton, OH", "Olathe, KS", "Tulsa, OK"]},
     "last_location_date": {
       "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+        "min": "2021-07-01T00:00:00Z",
+        "max": "2021-07-30T23:59:59Z"
       }
     }
   }
