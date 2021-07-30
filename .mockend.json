@@ -1,16 +1,9 @@
 {
-  "Post": {
+  "Tracking": {
+    "tracking_number": { "string": {} },
     "pickup_display": { "string": ["Laredo, TX", "Fontana, CA", "Pacific, WA", "Springfield, OH"] },
     "drop_display": { "string": ["Indianapolis, IN", "Phoenix, AZ", "Kansas City, MO", "Memphis, TN"]},
     "last_location": { "string": ["Dayton, OH", "Olathe, KS", "Tulsa, OK"]},
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "last_location_date": { "dateTime": { "min": "2021-07-20T00:00:00Z", "max": "2010-07-30T00:00:00Z"}}
   }
 }
