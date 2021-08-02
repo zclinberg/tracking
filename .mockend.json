@@ -26,5 +26,17 @@
       },
       "is_picked_up": { "boolean": {}},
       "is_delivered": { "boolean": {}}
+    },
+
+    "Notification": {
+      "title": { "string": ["New Offer Available!", "Counter Offer Accepted!", "Paperwork Rejected!"]},
+      "body": { "string": {}},
+      "severity": { "string": ["error", "warning", "info", "success"]},
+      "create_date": {
+        "dateTime": {
+          "min": "2021-07-01T00:00:00Z",
+          "max": "2021-07-30T23:59:59Z"
+        }
+      },
     }
-  }
+}
